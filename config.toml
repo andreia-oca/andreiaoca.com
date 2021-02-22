@@ -1,4 +1,4 @@
-baseURL = "https://andreiaoca.com"
+baseURL = "https://andreiaoca-z5hax.ondigitalocean.app"
 title = "Andreia Oca"
 paginate = 5
 theme = "PaperMod"
@@ -6,7 +6,7 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = "UA-123-45"
+defaultContentLanguage = "en"
 
 [minify]
 disableXML = true
@@ -16,11 +16,11 @@ minifyOutput = true
 env = "production"
 title = "Andreia Oca"
 description = "Andreia Oca - personal blog"
-author = "Andreia Oca"
-defaultTheme = "auto"
+author = "Andreia Ocanoaia"
+defaultTheme = "dark"
 disableThemeToggle = false
 ShowReadingTime = true
-ShowShareButtons = true
+ShowShareButtons = false
 disableSpecial1stPost = false
 comments = false
 hidemeta = false
@@ -82,7 +82,7 @@ tocopen = false
 [[menu.main]]
 identifier = "home"
 name = "Home"
-url = "https://andreiaoca.com"
+url = "https://andreiaoca-z5hax.ondigitalocean.app"
 weight = 10
 
 [[menu.main]]
@@ -94,13 +94,13 @@ weight = 20
 [[menu.main]]
 identifier = "blog"
 name = "Blog"
-url = "/blog/"
+url = "/posts"
 weight = 30
 
 [[menu.main]]
 identifier = "career"
 name = "Career"
-url = "/career/"
+url = "/projects/"
 weight = 40
 
 [[menu.main]]

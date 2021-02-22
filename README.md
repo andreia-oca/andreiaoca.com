@@ -1,4 +1,4 @@
-# andreiaoca.com
+# andreiaoca.comconteconte
 
 Welcome to my personal blog.
 
@@ -9,6 +9,8 @@ Welcome to my personal blog.
 
 [gohugo.io](https://gohugo.io/)
 
-PaperMod [theme](https://themes.gohugo.io/hugo-papermod/), [github](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite), [example](https://adityatelange.github.io/hugo-PaperMod/).
+Hugo [Quickstart](https://gohugo.io/getting-started/quick-start/)
+
+PaperMod [theme](https://themes.gohugo.io/hugo-papermod/), [Github](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite), [example](https://adityatelange.github.io/hugo-PaperMod/).
 
 Paper [theme](https://github.com/nanxiaobei/hugo-paper), [example](https://nanxiaobei.github.io/hugo-paper/).
