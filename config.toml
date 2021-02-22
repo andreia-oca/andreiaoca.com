@@ -27,6 +27,12 @@ hidemeta = false
 showtoc = false
 tocopen = false
 
+  [params.assets]
+  favicon = "favicon_io/favicon.ico"
+  favicon16x16 = "favicon_io/favicon-16x16.png"
+  favicon32x32 = "favicon_io/favicon-32x32.png"
+  apple_touch_icon = "favicon_io/apple-touch-icon.png"
+
   [params.label]
   text = "Andreia Oca"
   icon = "/profile.jpeg"
