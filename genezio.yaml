@@ -2,9 +2,9 @@ name: portfolio
 region: eu-central-1
 language: ts
 cloudProvider: genezio
-scripts:
-  preFrontendDeploy: npm install && npm run build
-frontend:
-  path: ./dist
-  subdomain: coffee-printed-quelea
 packageManager: npm
+script:
+  preFrontendDeploy: hugo --minify
+frontend:
+  path: ./public
+  subdomain: orange-yappiest-swift
