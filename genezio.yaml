@@ -1,10 +1,10 @@
-name: portfolio
+name: my-blog
 region: eu-central-1
-language: ts
-cloudProvider: genezio
-packageManager: npm
-script:
-  preFrontendDeploy: hugo --minify
+yamlVersion: 2
 frontend:
-  path: ./public
-  subdomain: orange-yappiest-swift
+  path: .
+  publish: public
+  scripts:
+    deploy:
+      - hugo --minify
+  subdomain: aqua-competent-cattle
