@@ -129,4 +129,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# Custom (add your own)
 public
+.hugo_build.lock
