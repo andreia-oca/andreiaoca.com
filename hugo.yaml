@@ -1,4 +1,36 @@
 baseURL: https://andreiaoca.com/
 languageCode: en-us
-title: Andreia Ocanoaia's Blog
+title: DevBlog
 theme: "PaperMod"
+
+params:
+  env: production
+  description: "My personal blog - a place where I nerd out about tech stuff"
+  author: Andreia Ocanoaia
+
+  defaultTheme: auto
+  disableThemeToggle: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowPageNums: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Andreia Ocanoaia"
+    Content: >
+      - Hi, Andreia here 👋 currently innovating serverless cloud at Genezio.
+
+      - An absolute nerd for `git`, `docker` and Go related stuff.
+
+      - Professionally worked with Go, TypeScript, Git/Github and AWS Services.
+
+  socialIcons:
+    - name: github
+      title: Check out my work on GitHub
+      url: "https://github.com/andreia-oca/"
+    - name: linkedin
+      title: Connect with me on LinkedIn
+      url: "https://www.linkedin.com/in/andreia-irina-ocanoaia/"
